@@ -10,7 +10,7 @@ A. In supervised ML the machine is trained on predefined set of datasets to be t
 Q. Describe why the following statement is FALSE: Scikit-Learn has the power to visualize data without a Graphviz, Pandas, or other data analysis libraries.
 A. The statement is completely false since Scikit-Learn is built on these libraries and it uses NumPy, SciPy, Matplotlib, IPython, Sympy and Pandas.
 
-#Day 3's Q&As
+# Day 3's Q&As
 Q. What are “Tensors” and what are they used for in Machine Learning?
 A. In mathematics, Tensors are algebraic objects that describes relation ship between objects and vector space. In TensorFlow, Tensors are multi-dimensional arrays (like vectors or matrices) and it's the way the data is being handled by the machine. It's used in Machine Learning because It makes sense to be encoded as a tensor.
 Q. What did you notice about the computations that you ran in the TensorFlow programs (i.e. interactive models) in the tutorial?
