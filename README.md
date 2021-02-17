@@ -16,3 +16,18 @@ A. In mathematics, Tensors are algebraic objects that describes relationship bet
 
 Q. What did you notice about the computations that you ran in the TensorFlow programs (i.e. interactive models) in the tutorial?
 A. In order to get our calculations from the machine we start a session for the graph to get an unassigned variable which is only valid within the session and when the session closed this variable will be unaccessable like placeholders.
+
+#Day 9's Q&As
+Q. How do you think Machine Learning or AI concepts were utilized in the design of this game?
+A. Concepts were represented as simple as possible. Collecting data is an important process and A machine needs more and more data to be collected as much as possible. The game explained that if the data wasn't enough and didn't contain enough samples on a specific aspect like it was shown on the game, this will create a problem called machine bias. Machine bias happens as a result of a lack of cognitive assessment of data. Even when I was as objective as possible the machine found a pattern in the data due connected to human interactions which resulted in this issue.
+
+another explanation I found interesting for this problem: "Overfitting would be like training your dog raise his paw when you hold out your hand, and he learns the trick perfectly, but he only does it when it's *you* holding out *your* hand, and only your right hand because that's all he's been trained on. He won't do it for anyone else, and he won't do it when you raise your left hand. So his "model" of the trick works perfectly, but because there hasn't been enough variation in the training activity, or because of the way that the training was done (or perhaps just because of the way the dog's brain works), his trick doesn't generalize correctly to other stimuli that was intended to yield the same result."-u/RWYAEV from Reddit r/artificial.
+
+Q. Can you give a real-world example of a biased machine learning model, and share your ideas on how you make this model more fair, inclusive, and equitable? Please reflect on why you selected this specific biased model.
+A. Let's talk about something I loved since I was three years old, Video Games, Especially Online/Multiplayer. Every game developer is having hard time trying to solve problems regarding griefing or trolling. What most developers do is collecting manual banned accounts data on their gameplay that led to being reported and what the observer -who has the authority to ban the account- was thinking of and his decision. The problem with this approach: 
+
+-It's not accurate since in some complex games people have different approach on how the play the game and sometimes when the machine thinks that this griefing pattern applies to someone who is just playing the game differently can lead to a ban.
+
+-No enough data. A machine needs a lot of data to analyse and train/test. Manual bans are not enough since observers can't ban too many people in just short amount of time.
+
+Why is this problem important? In the last 10 years Esports have experienced a large amount of growth and in US alone esports' profits reached $950M and what keeps these games alive is a health game that has a good system that is actively tries to put players on a healthy game without trollers/griefers. Also it's expected to reach $1.1B so it's a lot of money at stake.
