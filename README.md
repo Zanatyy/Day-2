@@ -40,7 +40,11 @@ Convolutional Neural Network is a class of deep neural networks used and special
 A Fully Connected Neural Network is a classic neural network architecture which all the nodes, or neurons, in one layer are connected to the neurons in the next layer.
 
 CNN architecture types of layers are:
+
 -Convolutional layer which is a filter that scans small number of pixels, then creates a feature map which helps to predict the class of each feature.
+
 -Pooling layer. Its function is to reduce the amount of output data of the convolutional layer to reduce the amount of parameters and computation in the network.
+
 -Fully connected input layer which takes the output of the pooling layer and turns it into a single vector (Flattening).
+
 -Fully connected output layer provides the final predictions for every label.
