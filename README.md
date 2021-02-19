@@ -33,3 +33,14 @@ A. Let's talk about something I loved since I was three years old, Video Games, 
 -No enough data. A machine needs a lot of data to analyse and train/test. Manual bans are not enough since observers can't ban too many people in just short amount of time.
 
 Why is this problem important? In the last 10 years Esports have experienced a large amount of growth and in US alone esports' profits reached $950M and what keeps these games alive is a health game that has a good system that is actively tries to put players on a healthy game without trollers/griefers. Also it's expected to reach $1.1B so it's a lot of money at stake.
+
+# Day 10's Q&As
+Convolutional Neural Network is a class of deep neural networks used and specializied in analyzing visuals and images. CNN consists of two main parts: -Pooling mechanism that divides images into features and analyze them. -Fully connected neural network that predicts the right label for the image after getting the output of the pooling/convolution layer.
+
+A Fully Connected Neural Network is a classic neural network architecture which all the nodes, or neurons, in one layer are connected to the neurons in the next layer.
+
+CNN architecture types of layers are:
+-Convolutional layer which is a filter that scans small number of pixels, then creates a feature map which helps to predict the class of each feature.
+-Pooling layer. Its function is to reduce the amount of output data of the convolutional layer to reduce the amount of parameters and computation in the network.
+-Fully connected input layer which takes the output of the pooling layer and turns it into a single vector (Flattening).
+-Fully connected output layer provides the final predictions for every label.
