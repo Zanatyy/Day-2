@@ -48,3 +48,11 @@ CNN architecture types of layers are:
 -Fully connected input layer which takes the output of the pooling layer and turns it into a single vector (Flattening).
 
 -Fully connected output layer provides the final predictions for every label.
+
+# Day 16 Q&As
+ReLU or Rectified Linear Activation Function is a simple function that outputs directly if the input is positive, otherwise, it returns zero. It has become the most common activation function for many types of networks and It's definitely the most used function for hidden layers in networks for several reasons:
+ 
+-Efficiency: Faster to compute than Sigmoid Function and its derivative is faster to compute.
+-Simple to use.
+-Overcomes the vanishing gradient problem, allowing models to learn faster and perform better.
+However, the only problem with the output is when x= the point which the function is bent because the derivative here is not defined. The solution here is to simply define the bent point's derivative with 0 or 1, So it's not a big problem.
